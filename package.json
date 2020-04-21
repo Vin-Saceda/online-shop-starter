@@ -1,0 +1,29 @@
+{
+  "name": "16th-project",
+  "version": "1.0.0",
+  "description": "Online Shopping Starter Pack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js"
+  },
+  "author": "Vin Saceda",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "react-redux": "^7.2.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
